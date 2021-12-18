@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./IMG/background.jpg);
+  background-repeat: no-repeat;
+}
+
+.header {
+  height: 80px;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Oswald", sans-serif;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 15px 8px #000000;
+  box-shadow: 0px 2px 15px 8px #000000;
+}
+
+.header h2 {
+  font-size: 23px;
+  margin-top: 1.8%;
+}
+
+.nolting {
+  margin-right: 5%;
+}
+
+.logo {
+  display: flex;
+  margin-top: 0.5%;
+  font-size: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-top: 2%;
+  font-size: 18px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+
+ul li a:hover {
+  color: white;
+  font-size: 25px;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+.div-nosotros {
+  font-family: "Oswald", sans-serif;
+  font-size: 19px;
+  margin-top: 2%;
+  text-align: center;
+  width: 50%;
+  margin-left: 45%;
+  color: white;
+  position: absolute;
+}
+
+.div-nosotros h2 {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.div-nosotros p {
+  position: absolute;
+  top: 14%;
+  left: 1%;
+  margin: 15px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/*NOTICIAS*/
+
+.noticias {
+  background-color: #040509;
+  margin-top: 38%;
+}
+
+.noticia1 {
+  display: flex;
+  margin-top: 2%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.noticia1 p {
+  margin: 20px;
+  margin-top: 8%;
+}
+
+.noticias h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+}
+
+.noticia1 h3 {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 3%;
+  font-size: 30px;
+}
+
+.imgnolting {
+  width: 50%;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.imgnolting:hover {
+  width: 60%;
+  position: relative;
+}
+
+.div-estrellas {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.div-img-estrellas {
+  width: 200%;
+}
+
+.div-img-estrellas img {
+  border-radius: 20px;
+}
+
+.div-estrellas-texto {
+  color: white;
+  margin-top: 15%;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.div-estrellas-texto h3 {
+  margin-top: 2%;
+  font-size: 30px;
+}
+
+.div-estrellas-texto p {
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+.div-aniversario {
+  display: flex;
+  margin-top: 3%;
+}
+
+.div-aniversario img {
+  border-radius: 20px;
+}
+
+.div-aniversario-texto {
+  width: 50%;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.div-aniversario-texto h3 {
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+.div-aniversario-texto p {
+  margin: 5%;
+}
+
+.footer {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: grey;
+  border-top: solid 5px black;
+}
+
+.footer h3 {
+  padding-top: 1%;
+  font-size: 20px;
+}
+
+.footer-iconos {
+  padding: 1%;
+  font-size: 30px;
+}
+
+.footer-iconos a {
+  color: inherit;
+  color: black;
+  margin-left: 20px;
+}
+
+.div-maps {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: solid 5px black;
+  background-image: url(./IMG/backgroundmaps.jpg);
+}
+.div-maps h4 {
+  color: white;
+  font-size: 40px;
+  margin: 10%;
+}
+
+.div-contactanos {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.div-contactanos i {
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+/*REGISTRO*/
+
+.div-contenedor-registro {
+  display: flex;
+}
+
+.div-registro {
+  display: flex;
+  flex-direction: column;
+  background-color: #dae2f8;
+  width: 20%;
+  height: 350px;
+  margin-left: 45%;
+  margin-top: 8%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.div-registro h3 {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.div-registro input {
+  font-size: 15px;
+  background-color: #dae2f8;
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 8%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid;
+}
+
+.div-registro button {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  height: 8%;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 8%;
+  background-color: red;
+  border-radius: 5px;
+  border: solid 1px black;
+  transition: 0.5s;
+}
+
+.div-registro button:hover {
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 1px 8px 5px rgba(0, 0, 0, 0.39);
+}
+
+.nolting-login {
+  width: 50px;
+  height: 60px;
+  margin-left: 63%;
+  margin-top: 2%;
+  position: absolute;
+}
+
+.div-inicio-sesion {
+  display: flex;
+  flex-direction: column;
+  background-color: #0abfbc;
+  width: 20%;
+  height: 350px;
+  margin-top: 8%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.div-inicio-sesion h3 {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.div-inicio-sesion button {
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  width: 80%;
+  height: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.div-inicio-sesion button:hover {
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 1px 8px 5px rgba(0, 0, 0, 0.39);
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #00acee;
+}
+
+.correo {
+  background-color: red;
+}
+
+.div-inicio-sesion i {
+  margin-right: 20px;
+  margin-top: 2px;
+  font-size: 20px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 320px) and (max-width: 1136px) {
+  .div-nosotros p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1055px) {
+  .div-nosotros p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1115px) {
+  .div-estrellas-texto {
+    margin: 0;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1062px) {
+  .div-contenedor-registro {
+    margin-left: 10%;
+    width: 115%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1062px) {
+  .nolting-login {
+    margin-left: 82.2%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1062px) {
+  .body {
+    background-color: #000000;
+  }
+}
